@@ -1,0 +1,1 @@
+let year = parseInt(prompt("Enter your year of birth:"));
