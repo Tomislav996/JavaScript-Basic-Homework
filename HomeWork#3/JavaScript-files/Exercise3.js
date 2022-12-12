@@ -8,7 +8,7 @@ function Convert(User1stChoice, User2stChoice) {
   }
   else if (User1stChoice === "Human" || User1stChoice === "human") {
     let result = User2stChoice / 7;
-    result = result.toFixed(0);
+    result = result.toFixed(1);
     alert(`The human is ${result} years old`);
   }
   else if (User1stChoice != String) {
