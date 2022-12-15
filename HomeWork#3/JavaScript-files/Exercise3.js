@@ -11,15 +11,9 @@ function Convert(User1stChoice, User2stChoice) {
     result = result.toFixed(1);
     alert(`The human is ${result} years old`);
   }
-  else if (User1stChoice != String) {
-    alert("Invalid input");
-  }
-  else if (User2stChoice != Number) {
-    alert("Invalid input");
-  }
-  else {
+    else {
     alert("invalid input");
-  }
+   }
 }
 
 Convert(User1stChoice, User2stChoice);

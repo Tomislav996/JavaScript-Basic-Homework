@@ -12,6 +12,7 @@ switch((year - 4) % 12) {
       break;
     case 3:
       alert("Your sign is: Rabbit");
+      break;
     case 4:
       alert("Your sign is: Dragon");
       break;
