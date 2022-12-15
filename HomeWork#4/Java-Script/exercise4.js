@@ -14,7 +14,7 @@ function findLargestValue(inputArray){
             max = inputArray[counter];
             
         }
-        else if(inputArray[counter] !== "number") {
+        else if(typeof(inputArray[counter]) !== "number") {
            continue;
         }
         
