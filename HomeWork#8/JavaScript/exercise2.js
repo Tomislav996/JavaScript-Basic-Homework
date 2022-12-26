@@ -171,7 +171,8 @@ $(document).ready(function(){
         else {
             error.text(`Invalid input`).css("color", "green");
         }
-        
+          Input1[0].value = '';
+          Input2[0].value = '';
     })
 })
 
