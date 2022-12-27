@@ -13,7 +13,10 @@ button.addEventListener("click", function() {
             alert(`${Animal.name} Says hi to ${Humanname} from the ${Animal.kind} family!`);
         }
     }
-     Animal.speak(inputs[2].value);   
+     Animal.speak(inputs[2].value);
+     inputs[0].value = '';
+     inputs[1].value = '';
+     inputs[2].value = '';   
 
 })
 

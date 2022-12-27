@@ -7,6 +7,7 @@ $(document).ready(function(){
     button.click(function(){
         let Name = input[0].value
         result.text(`Hello There ${Name}`).css("color", "blue");
+        input[0].value = '';
         
     })
      clearBtn.click(function(){
